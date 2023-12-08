@@ -1,0 +1,37 @@
+
+@use 'custom';
+
+#sapin{
+  #lampes {
+    .ampoule{
+      position: absolute;
+      border-radius: 50%;
+      border: black 1px solid;
+      background-color: white;
+      width: 50px;
+      height: 50px;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+main {
+  .banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    #banner-img {
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: fill;
+      }
+    }
+    #banner-text {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+$kprimary : #2e371a;
+$ksecondary: #576246;
+$kinfo: #d9cbb1;
+$lighGray: #677068;
+$lighSilver: #c6cecb;
+
+// scss-docs-start gray-color-variables
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$primary: $kprimary;
+$secondary: $ksecondary;
+$info: $kinfo;
+
+//import bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

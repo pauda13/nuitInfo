@@ -1,0 +1,19 @@
+{
+  "name": "nuitinfo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass src/scss:src/assets/css",
+    "compile:sass:watch": "sass --watch src/scss:src/assets/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
