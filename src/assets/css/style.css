@@ -11855,31 +11855,39 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#sapin #lampes .ampoule {
-  position: absolute;
-  border-radius: 50%;
-  border: black 1px solid;
-  background-color: white;
-  width: 50px;
-  height: 50px;
-  top: 0;
-  left: 0;
-}
-
 main .banner {
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 main .banner #banner-img img {
+  margin-top: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
+  height: 85vh;
   object-fit: fill;
 }
 main .banner #banner-text {
   position: relative;
-  top: 0;
-  left: 0;
+  top: 90px;
+  left: 300px;
+}
+
+#grid-template #sapin {
+  width: 30%;
+}
+#grid-template #sapin img {
+  width: inherit;
+}
+#grid-template #sapin #lampes .ampoule {
+  position: absolute;
+  border-radius: 50%;
+  border: black 1px solid;
+  background-color: white;
+  width: 20px;
+  height: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
